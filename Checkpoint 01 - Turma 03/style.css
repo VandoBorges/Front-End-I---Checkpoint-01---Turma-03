@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Roboto:wght@300&display=swap');
+
+body {
+    background-image: url(img.jpg);
+    background-size: 1380px 720px;
+    vertical-align: middle;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(70, 130, 180);
+    padding: 10px;
+}
+
+p {
+    background-color: white;
+    font-family: Arial, 'Barlow', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.video {
+    width: 500px;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+h1.curiosidades {
+    font-size: 22px;
+}
+
+.curiosidades {
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    font-family: 'Roboto', 'Barlow', sans-serif;
+    font-size: 12px;
+    width: 500px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    right: 13px;
+}
